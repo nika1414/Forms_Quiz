@@ -1,0 +1,48 @@
+* {
+  font-family: "Fira Sans", sans-serif;
+  background-color: rgb(110, 184, 184);
+}
+
+.hide {
+  -webkit-text-security: circle;
+}
+
+.checkbox {
+  cursor: pointer;
+}
+
+.btn-submit {
+  padding: 10px 25px;
+  cursor: pointer;
+  background-color: darkslategrey;
+  border: none;
+  border-radius: 20px;
+  color: white;
+  font-size: medium;
+}
+
+.btn-submit:hover {
+  background-color: rgb(85, 141, 141);
+  transition: 0.2s;
+}
+
+.mainForm {
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+
+table {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+input {
+  color: white;
+  border-radius: 6px;
+  background-color: rgb(85, 141, 141);
+}
+
+::placeholder {
+  color: rgb(224, 216, 216);
+}
