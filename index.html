@@ -14,74 +14,75 @@
     <title>Form</title>
   </head>
   <body>
-    <form class="mainForm" role="form" onsubmit="signUp(event)">
-      <label for="fname"><b>First name:</b></label
-      ><br />
-      <input
-        type="text"
-        id="fname"
-        name="fname"
-        placeholder="Your Name"
-        required
-        onkeypress="return (event.charCode > 64 && event.charCode < 91) || (event.charCode > 96 && event.charCode < 123) || (event.charCode==32)"
-      /><br /><br />
-      <label for="lname"><b>Last name:</b></label
-      ><br />
-      <input
-        type="text"
-        id="lname"
-        name="lname"
-        placeholder="Your Last Name"
-        required
-        onkeypress="return (event.charCode > 64 && event.charCode < 91) || (event.charCode > 96 && event.charCode < 123) || (event.charCode==32)"
-      /><br /><br />
-      <label for="email"><b>Email</b></label
-      ><br />
-      <input
-        type="email"
-        placeholder="Enter Email"
-        name="email"
-        id="email"
-        required
-      /><br /><br />
+    <div class="mainDiv">
+      <form class="mainForm" role="form" onsubmit="signUp(event)">
+        <label for="fname"><b>First name:</b></label
+        ><br />
+        <input
+          type="text"
+          id="fname"
+          name="fname"
+          placeholder="Your Name"
+          required
+          onkeypress="return (event.charCode > 64 && event.charCode < 91) || (event.charCode > 96 && event.charCode < 123) || (event.charCode==32)"
+        /><br /><br />
+        <label for="lname"><b>Last name:</b></label
+        ><br />
+        <input
+          type="text"
+          id="lname"
+          name="lname"
+          placeholder="Your Last Name"
+          required
+          onkeypress="return (event.charCode > 64 && event.charCode < 91) || (event.charCode > 96 && event.charCode < 123) || (event.charCode==32)"
+        /><br /><br />
+        <label for="email"><b>Email</b></label
+        ><br />
+        <input
+          type="email"
+          placeholder="Enter Email"
+          name="email"
+          id="email"
+          required
+        /><br /><br />
 
-      <label for="psw"><b>Password (min 6)</b></label> <br />
-      <input
-        type="password"
-        placeholder="Enter Password"
-        name="psw"
-        id="psw"
-        minlength="6"
-        required
-      />
+        <label for="psw"><b>Password (min 6)</b></label> <br />
+        <input
+          type="password"
+          placeholder="Enter Password"
+          name="psw"
+          id="psw"
+          minlength="6"
+          required
+        />
 
-      <br />
-      <br />
+        <br />
+        <br />
 
-      <label for="psw-repeat"><b>Repeat Password</b></label
-      ><br />
-      <input
-        type="password"
-        placeholder="Repeat Password"
-        name="psw-repeat"
-        id="psw-repeat"
-        required
-      /><br />
+        <label for="psw-repeat"><b>Repeat Password</b></label
+        ><br />
+        <input
+          type="password"
+          placeholder="Repeat Password"
+          name="psw-repeat"
+          id="psw-repeat"
+          required
+        /><br />
 
-      <input
-        class="checkbox"
-        type="checkbox"
-        onclick="ShowRepeatedPass()"
-      />Show Password <br /><br />
+        <input
+          class="checkbox"
+          type="checkbox"
+          onclick="ShowRepeatedPass()"
+        />Show Password <br /><br />
 
-      <input
-        class="btn-submit"
-        type="submit"
-        value="Submit"
-        onclick="saveData()"
-      />
-    </form>
-
+        <input
+          class="btn-submit"
+          type="submit"
+          value="Submit"
+          onclick="saveData()"
+        />
+      </form>
+    </div>
     <table id="output">
       <!-- user Data -->
     </table>

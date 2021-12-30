@@ -7,7 +7,9 @@ const signUp = (e) => {
 function displayData() {
   var output = document.getElementById("output");
   output.innerHTML = `
-    <table class="tableClass">
+
+  <table class="tableClass">
+
       <br/>     
                 <tr>
                     <td><b>Last Name: </b></td>

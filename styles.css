@@ -30,11 +30,14 @@
   justify-content: center;
   text-align: center;
   align-items: center;
+  margin-top: 10%;
 }
 
 table {
   margin-left: auto;
   margin-right: auto;
+  background-color: aquamarine;
+  margin-top: 10px;
 }
 
 input {
@@ -45,4 +48,15 @@ input {
 
 ::placeholder {
   color: rgb(224, 216, 216);
+}
+
+.mainDiv {
+  color: white;
+  width: auto;
+}
+
+h4 {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
 }
