@@ -22,6 +22,7 @@
         id="fname"
         name="fname"
         placeholder="Your Name"
+        onkeypress="return (event.charCode > 64 && event.charCode < 91) || (event.charCode > 96 && event.charCode < 123) || (event.charCode==32)"
       /><br /><br />
       <label for="lname"><b>Last name:</b></label
       ><br />
@@ -30,6 +31,7 @@
         id="lname"
         name="lname"
         placeholder="Your Last Name"
+        onkeypress="return (event.charCode > 64 && event.charCode < 91) || (event.charCode > 96 && event.charCode < 123) || (event.charCode==32)"
       /><br /><br />
       <label for="email"><b>Email</b></label
       ><br />
@@ -52,7 +54,6 @@
       />
 
       <br />
-
       <br />
 
       <label for="psw-repeat"><b>Repeat Password</b></label
